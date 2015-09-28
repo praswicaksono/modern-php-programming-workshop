@@ -1,0 +1,21 @@
+{
+    "name": "workshop/front-controller",
+    "description": "Front Controller Example",
+    "type": "Application",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasetyo",
+            "email": "jowy@oiry.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/route": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Workshop\\": "src"
+        }
+    }
+}
