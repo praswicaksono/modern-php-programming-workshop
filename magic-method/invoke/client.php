@@ -6,4 +6,4 @@ use Workshop\Person;
 
 $person = new Person();
 
-$person('bejo');
+var_dump(is_callable($person));

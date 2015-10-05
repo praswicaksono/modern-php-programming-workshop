@@ -4,8 +4,8 @@ namespace Workshop;
 
 class Person
 {
-    public function __invoke($name)
+    public function __invoke($name, $nama2)
     {
-        echo "hellp {$name}";
+        echo "hello {$name}";
     }
 }
